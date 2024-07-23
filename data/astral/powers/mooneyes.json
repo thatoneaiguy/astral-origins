@@ -1,0 +1,11 @@
+{
+    "name": "Adjusted Eyes",
+    "description": "As you have dwelled on the moon for so long, your eyes have adjusted to the darkness, making it easier to see",
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": "<=",
+        "compare_to": 8
+    },
+    "type": "origins:night_vision",
+    "strength": 1
+}

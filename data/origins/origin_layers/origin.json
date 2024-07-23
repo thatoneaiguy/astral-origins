@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "astral:moon",
+        "astral:sun"
+    ],
+    "enabled": true
+}

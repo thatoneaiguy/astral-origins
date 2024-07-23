@@ -1,0 +1,11 @@
+{
+    "name": "Sun",
+    "description": "eeverest",
+    "powers": [
+        "astral:sun/sunshine"
+    ],
+    "icon": {
+        "item": "minecraft:orchre_froglight"
+    },
+    "impact": 2
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Moon",
+    "description": "pomlmao",
+    "powers": [
+        "astral:mooneyes",
+        "astral:moonlight"
+    ],
+    "icon": {
+        "item": "minecraft:endstone"
+    },
+    "impact": 1
+}

@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "name": "Astral Origins",
+        "id": "astral",
+        "pack_format": 15,
+        "version": "1.0.0",
+        "license": "Aconite DSMS",
+        "description": ""
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Moonlight",
+    "description": "When in moonlight, you gain buffs\n\n[ INSERT LORE ]",
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": "<=",
+        "compare_to": 8
+    },
+    "type": "origins:modify_healing",
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": 2
+    }
+}
