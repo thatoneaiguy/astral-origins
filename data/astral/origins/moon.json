@@ -1,12 +1,13 @@
 {
-    "name": "Moon",
+    "name": "Moondweller",
     "description": "pomlmao",
     "powers": [
         "astral:mooneyes",
-        "astral:moonlight"
+        "astral:moonlight",
+        "astral:worse_food"
     ],
     "icon": {
-        "item": "minecraft:endstone"
+        "item": "minecraft:end_stone"
     },
     "impact": 1
 }

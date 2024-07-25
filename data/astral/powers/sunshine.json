@@ -1,0 +1,21 @@
+{
+    "name": "Sunshine",
+    "description": "As you are so accustomed to the rays of The Sun, you have aqquired the ability to use those vitamins to their fullest ability",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "Active during daytime",
+            "sprite": "origins:textures/gui/badge/active.png"
+        }
+    ],
+    "condition": {
+        "type": "origins:daytime"
+    },
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 20,
+        "saturation": 20
+    }
+}

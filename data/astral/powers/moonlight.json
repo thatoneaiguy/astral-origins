@@ -2,13 +2,14 @@
     "name": "Moonlight",
     "description": "When in moonlight, you gain buffs\n\n[ INSERT LORE ]",
     "condition": {
-        "type": "origins:brightness",
-        "comparison": "<=",
-        "compare_to": 8
+        "inverted": true,
+        "type": "origins:daytime"
     },
-    "type": "origins:modify_healing",
-    "modifier": {
-        "operation": "multiply_base_multiplicative",
-        "value": 2
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 20,
+        "saturation": 20
     }
 }

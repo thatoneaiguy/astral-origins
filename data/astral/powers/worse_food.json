@@ -1,0 +1,9 @@
+{
+    "name": "Large Appetite",
+    "description": "Since you come from such a large celestial body, you are required to eat more ",
+    "type": "origins:modify_food",
+    "food_modifier": {
+        "operation": "multiply_base",
+        "value": -2
+    }
+}

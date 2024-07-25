@@ -1,11 +1,13 @@
 {
-    "name": "Sun",
-    "description": "eeverest",
+    "name": "Sun Bearer",
+    "description": "As an ancient defender of the sun, you have gained a special relationship with The Moon, and its dwellers, and learnt to harness the power of The Sun",
     "powers": [
-        "astral:sun/sunshine"
+        "astral:sunshine",
+        "astral:solarflare",
+        "astral:worse_food"
     ],
     "icon": {
-        "item": "minecraft:orchre_froglight"
+        "item": "minecraft:ochre_froglight"
     },
-    "impact": 2
+    "impact": 1
 }
