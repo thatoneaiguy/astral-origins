@@ -1,10 +1,14 @@
 {
-    "name": "Moondweller",
+    "name": "Lunar",
     "description": "pomlmao",
     "powers": [
         "astral:mooneyes",
         "astral:moonlight",
-        "astral:worse_food"
+        "astral:worse_food",
+        "astral:flammable",
+        "astral:moon_near_sun",
+        "astral:moon_near_sun_end",
+        "astral:radiance"
     ],
     "icon": {
         "item": "minecraft:end_stone"

@@ -1,0 +1,24 @@
+{
+    "name": "Eclipse",
+    "description": "As you and the moon come together,",
+    "condition": {
+        "type": "origins:raycast",
+        "distance": 20,
+        "block": true,
+        "entity": true,
+        "shape_type": "outline",
+        "fluid_handling": "any",
+        "match_bientity_condition": {
+            "type": "origins:either",
+            "condition": {
+                "type": "origins:origin",
+                "origin": "astral:sun"
+            }
+        }
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:nothing"
+    }
+}

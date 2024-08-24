@@ -1,10 +1,13 @@
 {
-    "name": "Sun Bearer",
+    "name": "Solar",
     "description": "As an ancient defender of the sun, you have gained a special relationship with The Moon, and its dwellers, and learnt to harness the power of The Sun",
     "powers": [
         "astral:sunshine",
         "astral:solarflare",
-        "astral:worse_food"
+        "astral:worse_food",
+        "astral:hydrophobic",
+        "astral:sun_near_moon_",
+        "astral:sun_near_moon_end_"
     ],
     "icon": {
         "item": "minecraft:ochre_froglight"

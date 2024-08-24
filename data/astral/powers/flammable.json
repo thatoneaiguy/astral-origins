@@ -1,0 +1,13 @@
+{
+    "name": "Flammable",
+    "description": "Since you are so used to the cold climates of the moon, exposure to fire is far worse for your skin ",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1,
+        "name": "Origin modifier"
+    }
+}

@@ -9,7 +9,7 @@
     "interval": 20,
     "entity_action": {
         "type": "origins:feed",
-        "food": 20,
+        "food": 0,
         "saturation": 20
     }
 }

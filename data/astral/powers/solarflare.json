@@ -1,13 +1,6 @@
 {
     "name": "Solar Flare",
     "description": "From intense magnetic fields on the Sun becoming too tangled, you have gained the ability to launch your own solar flare",
-    "badges": [
-        {
-            "type": "origins:keybind",
-            "text": "Activate with Secondary Active",
-            "sprite": "origins:textures/gui/badge/active.png"
-        }
-    ],
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
@@ -30,7 +23,7 @@
                 "type": "origins:delay",
                 "action": {
                     "type": "origins:raycast",
-                    "distance": 25,
+                    "distance": 50,
                     "block": false,
                     "entity": true,
                     "shape_type": "visual",
@@ -52,7 +45,7 @@
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "effect": "night_vision",
+                                        "effect": "glowing",
                                         "duration": 100,
                                         "amplifier": 0,
                                         "show_particles": true,
@@ -63,17 +56,22 @@
                         }
                     },
                     "command_along_ray": "function astral:flare"
-                }
+                },
+                "ticks": 25
+            },
+            {
+                "type": "origins:feed",
+                "saturation": -40
             }
         ]
     },
     "cooldown": 160,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index": 4
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 15
     },
     "key": {
-        "key": "key.origins.secondary_active"
+        "key": "key.origins.primary_active"
     }
 }
